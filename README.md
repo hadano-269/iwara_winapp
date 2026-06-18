@@ -21,7 +21,9 @@
 - 首次运行前需安装内置浏览器(release不用已包含)：`python -m playwright install chromium`
 
 ## 快速开始
-
+### 方式1.直接运行
+下载release中打包好的，保证exe和_internal在一个文件夹下
+### 方式2.克隆项目，然后使用.bat运行
 ```bash
 # 创建虚拟环境
 python -m venv venv
