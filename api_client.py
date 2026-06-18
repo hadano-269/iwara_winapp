@@ -1,3 +1,5 @@
+# Iwara API Client
+# Originally based on: https://github.com/xiatg/iwara-python-api (MIT License)
 import cloudscraper, requests, hashlib, os
 
 api_url = 'https://api.iwara.tv'

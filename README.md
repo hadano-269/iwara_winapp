@@ -83,3 +83,7 @@ python -m PyInstaller iwara.spec --clean --noconfirm
 ## License
 
 MIT
+
+## 致谢
+
+本项目基于 [xiatg/iwara-python-api](https://github.com/xiatg/iwara-python-api) 的 API 客户端代码（MIT License）。
