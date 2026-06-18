@@ -71,15 +71,6 @@ iwara/
 └── run.bat                 # 一键启动脚本
 ```
 
-## 打包为 exe
-
-```bash
-pip install pyinstaller
-python -m PyInstaller iwara.spec --clean --noconfirm
-```
-
-输出在 `dist\IwaraClient\`。
-
 ## License
 
 MIT
