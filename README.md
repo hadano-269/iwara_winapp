@@ -18,7 +18,7 @@
 - Windows 10+
 - Python 3.9+
 - Edge/Chrome 浏览器（用于 Hanime Cloudflare 验证）
-- 首次运行前需安装内置浏览器：`python -m playwright install chromium`
+- 首次运行前需安装内置浏览器(release不用已包含)：`python -m playwright install chromium`
 
 ## 快速开始
 
