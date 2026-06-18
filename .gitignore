@@ -1,0 +1,35 @@
+# 虚拟环境
+venv/
+
+# PyInstaller 打包输出
+dist/
+build/
+
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 内置 Chromium 浏览器（412MB，太大不适合 git）
+# 使用方式：python -m playwright install chromium
+browser/
+
+# 生成的头像文件（logo.svg 是源文件）
+resources/logo.ico
+resources/logo.png
+
+# PyInstaller 配置
+*.spec
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 用户设置文件（包含凭据）
+.iwara_client_settings.json
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
